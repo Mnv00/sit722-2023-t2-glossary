@@ -71,6 +71,56 @@ const devOpsGlossary = [
     references: [
       "Majors, C., Fong-Jones, L., & Miranda, G. (2022). Observability Engineering. “O’Reilly Media, Inc"
     ]
+  },
+  {
+    term: "Infrastructure Automation",
+    definition: "Infrastructure Automation involves using scripts and tools to automate the provisioning and management of infrastructure components, reducing manual tasks and improving consistency.",
+    references: ["Georgakopoulos, D., Hornick, M., & Sheth, A. (1995). An overview of workflow management: From process modeling to workflow automation infrastructure. Distributed and Parallel Databases, 3(2), 119–153."]
+  },
+  {
+    term: "Scalability",
+    definition: "Scalability is the ability of a system to handle increased workloads by adding resources or adjusting its capacity, ensuring performance remains consistent.",
+    references: ["Jogalekar, P., & Woodside, M. (2000). Evaluating the scalability of distributed systems. IEEE Transactions on Parallel and Distributed Systems, 11(6), 589–603."]
+  },
+  {
+    term: "Kubernetes",
+    definition: "Kubernetes is an open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications.",
+    references: ["Yegulalp, S. (2019, April 3). What is Kubernetes? Your next application platform. InfoWorld."]
+  },
+  {
+    term: "Deployment Automation",
+    definition: "Deployment Automation involves automating the process of deploying software updates to different environments, reducing manual errors and speeding up releases.",
+    references: ["Humble, J., & Farley, D. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. In Google Books. Pearson Education."]
+  },
+  {
+    term: "Load Balancing",
+    definition: "Load Balancing is the distribution of network traffic across multiple servers or resources to ensure optimal utilization and reliability, improving application performance.",
+    references: ["Bourke, T. (2001). Server Load Balancing. In Google Books. “O’Reilly Media, Inc.”"]
+  },
+  {
+    term: "Agile Development",
+    definition: "Agile Development is an iterative and collaborative software development approach that emphasizes flexibility, customer feedback, and delivering value in small increments.",
+    references: ["Abeythilake, U. (2022, June 12). Agile Methodology. Medium."]
+  },
+  {
+    term: "Immutable Infrastructure",
+    definition: "Immutable Infrastructure is a concept where infrastructure components, once deployed, are never modified. Instead, new components are created to replace the old ones, enhancing reliability and consistency.",
+    references: ["Virdó, H. (2017, September 26). What Is Immutable Infrastructure? | DigitalOcean."]
+  },
+  {
+    term: "Service Level Agreement (SLA)",
+    definition: "A Service Level Agreement is a formal agreement between a service provider and a customer that outlines the expected level of service, including availability, response times, and support.",
+    references: ["Manjaly, S. (2022, July 22). The Ultimate Guide to Service Level Agreements (SLAs). Blog.invgate.com."]
+  },
+  {
+    term: "Kernel",
+    definition: "The Kernel is the core component of an operating system that manages system resources, including hardware and software interactions. In DevOps, understanding the Kernel can be important for optimizing performance and resource management in infrastructure.",
+    references: ["Horcasitas, J. (2021, July 31). What Is a Kernel? | DigitalOcean."]
+  },
+  {
+    term: "Incident Management",
+    definition: "Incident Management is the process of identifying, responding to, and resolving incidents in a production environment to minimize downtime and impact on users.",
+    references: ["Prinsloo, H. (2019, August 6). Incident Management Process. Medium."]
   }
 ];
 
