@@ -121,6 +121,56 @@ const devOpsGlossary = [
     term: "Incident Management",
     definition: "Incident Management is the process of identifying, responding to, and resolving incidents in a production environment to minimize downtime and impact on users.",
     references: ["Prinsloo, H. (2019, August 6). Incident Management Process. Medium."]
+  },
+  {
+    term: "Agile Release Management",
+    definition: "Agile Release Management is a practice that focuses on coordinating and managing software releases within an Agile development environment to ensure a smooth and efficient delivery process.",
+    references: ["Putta, A., Paasivaara, M., & Lassenius, C. (2019). How Are Agile Release Trains Formed in Practice? A Case Study in a Large Financial Corporation. Lecture Notes in Business Information Processing, 154–170"]
+  },
+  {
+    term: "Configuration Management",
+    definition: "Configuration Management involves tracking and controlling changes to software and infrastructure configurations to maintain consistency and stability throughout the development and deployment lifecycle.",
+    references: ["Dart, S. (1991). Concepts in configuration management systems. Proceedings of the 3rd International Workshop on Software Configuration Management"]
+  },
+  {
+    term: "Chaos Engineering",
+    definition: "Chaos Engineering is the practice of intentionally introducing controlled failures and chaos into a system to proactively identify weaknesses and vulnerabilities, helping to build more resilient systems.",
+    references: ["Basiri, A., Behnam, N., de Rooij, R., Hochstein, L., Kosewski, L., Reynolds, J., & Rosenthal, C. (2016). Chaos Engineering. IEEE Software, 33(3), 35–41"]
+  },
+  {
+    term: "GitOps",
+    definition: "GitOps is a methodology that uses Git repositories as the source of truth for infrastructure and application deployment, enabling declarative and version-controlled infrastructure management.",
+    references: ["Beetz, F., & Harrer, S. (2021). GitOps: The Evolution of DevOps? IEEE Software."]
+  },
+  {
+    term: "Feature Toggles (Feature Flags)",
+    definition: "Feature Toggles, also known as Feature Flags, allow developers to control the enablement or disablement of specific features in an application through configuration rather than code changes, facilitating continuous delivery and A/B testing.",
+    references: ["Mahdavi-Hezaveh, R., Ajmeri, N., & Williams, L. (2022). Feature toggles as code: Heuristics and metrics for structuring feature toggles. Information and Software Technology, 145, 106813."]
+  },
+  {
+    term: "Log Aggregation",
+    definition: "Log Aggregation is the process of collecting and centralizing logs from various sources, making it easier to analyze and troubleshoot issues in distributed systems.",
+    references: ["Ahmed Khan, M. N., & Ullah, S. (2017). A log aggregation forensic analysis framework for cloud computing environments. Computer Fraud & Security, 2017(7), 11–16."]
+  },
+  {
+    term: "Serverless Computing",
+    definition: "Serverless Computing is a cloud computing model where the cloud provider manages the underlying infrastructure, allowing developers to focus solely on writing code and deploying functions, often used for microservices.",
+    references: ["McGrath, G., & Brenner, P. R. (2017). Serverless Computing: Design, Implementation, and Performance. 2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)."]
+  },
+  {
+    term: "Compliance as Code",
+    definition: "Compliance as Code involves using code and automation to ensure that software and infrastructure configurations adhere to regulatory and security compliance standards.",
+    references: ["Ismail, A. S., Ali, K. N., & Iahad, N. A. (2017, July 1). A Review on BIM-based automated code compliance checking system. IEEE Xplore"]
+  },
+  {
+    term: "Service Mesh",
+    definition: "A Service Mesh is a dedicated infrastructure layer for handling service-to-service communication within microservices-based applications, providing features like load balancing, security, and observability.",
+    references: ["Li, W., Lemieux, Y., Gao, J., Zhao, Z., & Han, Y. (2019, April 1). Service Mesh: Challenges, State of the Art, and Future Research Opportunities. IEEE Xplore."]
+  },
+  {
+    term: "DevSecOps",
+    definition: "DevSecOps is an extension of DevOps that integrates security practices and tools into the software development and delivery process to identify and mitigate security vulnerabilities early in the development lifecycle.",
+    references: ["Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: A Multivocal Literature Review. Communications in Computer and Information Science, 17–29"]
   }
 ];
 
