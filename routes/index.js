@@ -171,6 +171,56 @@ const devOpsGlossary = [
     term: "DevSecOps",
     definition: "DevSecOps is an extension of DevOps that integrates security practices and tools into the software development and delivery process to identify and mitigate security vulnerabilities early in the development lifecycle.",
     references: ["Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: A Multivocal Literature Review. Communications in Computer and Information Science, 17–29"]
+  },
+  {
+    term: "Container Orchestration",
+    definition: "Container Orchestration is the automated management and scaling of containerized applications, ensuring they run efficiently and reliably across clusters of machines.",
+    references: ["Khan, A. (2017). Key Characteristics of a Container Orchestration Platform to Enable a Modern Application. IEEE Cloud Computing, 4(5), 42–48."]
+  },
+  {
+    term: "Pod",
+    definition: "In Kubernetes, a Pod is the smallest deployable unit that can hold one or multiple containers. Containers within the same Pod share the same network and storage resources.",
+    references: ["Balla, D., Simon, C., & Maliosz, M. (2020). Adaptive scaling of Kubernetes pods. NOMS 2020 - 2020 IEEE/IFIP Network Operations and Management Symposium."]
+  },
+  {
+    term: "Persistent Volume (PV)",
+    definition: "A Persistent Volume is a storage resource in Kubernetes that provides a way for pods to have access to durable storage, even if the pods themselves are deleted.",
+    references: ["Walker, J. (2023, July 23). Kubernetes Persistent Volumes - Tutorial and Examples. Spacelift."]
+  },
+  {
+    term: "Kubeconfig",
+    definition: "Kubeconfig is a configuration file used to specify the details of a Kubernetes cluster, including authentication information and cluster location.",
+    references: ["Buchanan, S., Janaka Rangama, & Bellavance, N. (2019). Kubectl overview. Apress EBooks, 51–62."]
+  },
+  {
+    term: "Distributed Systems",
+    definition: "Distributed Systems involve the use of multiple computers or servers to work together as a single system, often used in large-scale applications and cloud environments.",
+    references: ["Joyce, J., Lomow, G., Slind, K., & Unger, B. (1987). Monitoring distributed systems. ACM Transactions on Computer Systems, 5(2), 121–150."]
+  },
+  {
+    term: "Service Discovery",
+    definition: "Service Discovery is the process of automatically detecting and keeping track of the services and endpoints available within a network, crucial for dynamic environments like Kubernetes.",
+    references: ["Fen Zhu, Mutka, M. W., & Ni, L. M. (2005). Service Discovery in Pervasive Computing Environments. IEEE Pervasive Computing, 4(4), 81–90."]
+  },
+  {
+    term: "Horizontal Pod Autoscaling (HPA)",
+    definition: "HPA is a Kubernetes feature that automatically adjusts the number of pod replicas in a deployment to handle changes in resource usage, ensuring optimal performance.",
+    references: ["Nguyen, T.-T., Yeom, Y.-J., Kim, T., Park, D.-H., & Kim, S. (2020). Horizontal Pod Autoscaling in Kubernetes for Elastic Container Orchestration. Sensors, 20(16), 4621."]
+  },
+  {
+    term: "ReplicaSet",
+    definition: "In Kubernetes, a ReplicaSet is a controller that ensures a specified number of replicas of a pod are running at all times, helping with scalability and reliability.",
+    references: ["Cornwell, A. B., Llop, J. R., Salzman, P., Thakar, J., & Samuelson, A. V. (2018). The Replica Set Method: A High-throughput Approach to Quantitatively Measure Caenorhabditis elegans Lifespan. Journal of Visualized Experiments: JoVE, 136."]
+  },
+  {
+    term: "NoSQL Database",
+    definition: "NoSQL databases, like MongoDB, are non-relational databases that store and retrieve data in a flexible, schema-less format, making them suitable for various data types and agile development.",
+    references: ["Moniruzzaman, A. B. M., & Hossain, S. A. (2013). NoSQL Database: New Era of Databases for Big data Analytics - Classification, Characteristics and Comparison. ArXiv:1307.0191 [Cs]."]
+  },
+  {
+    term: "Message Queues",
+    definition: "Message Queues, such as RabbitMQ, are software systems that facilitate communication between different parts of an application by passing messages, enabling asynchronous and distributed processing.",
+    references: ["Vinoski, S. (2006). Advanced Message Queuing Protocol. IEEE Internet Computing, 10(6), 87–89."]
   }
 ];
 
