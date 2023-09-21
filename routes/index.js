@@ -221,6 +221,56 @@ const devOpsGlossary = [
     term: "Message Queues",
     definition: "Message Queues, such as RabbitMQ, are software systems that facilitate communication between different parts of an application by passing messages, enabling asynchronous and distributed processing.",
     references: ["Vinoski, S. (2006). Advanced Message Queuing Protocol. IEEE Internet Computing, 10(6), 87–89."]
+  },
+  {
+    term: "Blue-Green Deployment",
+    definition: "Blue-Green Deployment is a release strategy where two identical environments, 'blue' and 'green,' are used to deploy and switch between different versions of an application for minimal downtime and risk.",
+    references: ["Yang, B., Sailer, A., & Ajay Mohindra. (2020). Survey and Evaluation of Blue-Green Deployment Techniques in Cloud Native Environments. Lecture Notes in Computer Science, 69–81."]
+  },
+  {
+    term: "Git Submodule",
+    definition: "A Git Submodule is a repository embedded within another Git repository, allowing you to include external code or libraries as part of your project while keeping them in a separate repository.",
+    references: ["Loeliger, J., & McCullough, M. (2012). Version Control with Git: Powerful Tools and Techniques for Collaborative Software Development. In Google Books. “O’Reilly Media, Inc.”"]
+  },
+  {
+    term: "Kubernetes Namespace",
+    definition: "A Kubernetes Namespace is a virtual cluster within a Kubernetes cluster, used to isolate resources and provide logical separation of applications, services, and policies.",
+    references: ["Buchanan, S., Janaka Rangama, & Bellavance, N. (2019a). Inside Kubernetes. Apress EBooks, 35–50."]
+  },
+  {
+    term: "Terraform State",
+    definition: "Terraform State is a record of the deployed infrastructure managed by Terraform, used to track resource relationships, attributes, and state information.",
+    references: ["Brikman, Y. (2022). Terraform: Up and Running. In Google Books. “O’Reilly Media, Inc.”"]
+  },
+  {
+    term: "CI/CD Orchestration",
+    definition: "CI/CD Orchestration is the process of coordinating and managing the various stages and tools involved in Continuous Integration and Continuous Deployment pipelines to automate software delivery.",
+    references: ["Kumar, D., & Sampath, A. K. (2022). Orchestration of Ml/ai Models Using MLOps/AIOps Frameworks. SSRN Electronic Journal."]
+  },
+  {
+    term: "Git Hooks",
+    definition: "Git Hooks are scripts or programs that can be triggered at specific points in Git's lifecycle, allowing developers to automate custom actions such as pre-commit checks or post-receive deployments.",
+    references: ["Loeliger, J., & McCullough, M. (2012). Version Control with Git: Powerful Tools and Techniques for Collaborative Software Development. In Google Books. “O’Reilly Media, Inc.”"]
+  },
+  {
+    term: "Kubernetes Pod Affinity",
+    definition: "Kubernetes Pod Affinity is a feature that defines rules for how pods should be scheduled onto nodes based on the presence or absence of other pods, improving performance and resilience.",
+    references: ["Buchanan, S., Janaka Rangama, & Bellavance, N. (2019a). Inside Kubernetes. Apress EBooks, 35–50."]
+  },
+  {
+    term: "Terraform Provider",
+    definition: "A Terraform Provider is a plugin that allows Terraform to interact with and manage resources in a specific infrastructure platform or service, such as AWS, Azure, or Google Cloud.",
+    references: ["Brikman, Y. (2022). Terraform: Up and Running. In Google Books. “O’Reilly Media, Inc.”"]
+  },
+  {
+    term: "Immutable Deployment",
+    definition: "Immutable Deployment is a deployment approach where new application versions are deployed by creating entirely new instances instead of modifying existing ones, ensuring consistency and rollback capability.",
+    references: ["Casino, F., Politou, E., Alepis, E., & Patsakis, C. (2020). Immutability and Decentralized Storage: An Analysis of Emerging Threats. IEEE Access, 8, 4737–4744."]
+  },
+  {
+    term: "DevOps Metrics",
+    definition: "DevOps Metrics are key performance indicators (KPIs) used to measure the effectiveness and efficiency of DevOps processes, including metrics related to deployment frequency, lead time, and mean time to recovery (MTTR).",
+    references: ["Forsgren, N., & Kersten, M. (2018). DevOps metrics. Communications of the ACM, 61(4), 44–48."]
   }
 ];
 
